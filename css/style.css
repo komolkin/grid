@@ -20,12 +20,49 @@ h1 {
   margin-left: -30px;
 }
 
+.grid--narrow {
+  margin-left: -15px;
+}
+
+.grid--narrow > .gridItem {
+  padding-left: 15px;
+}
+
+.grid--wide {
+  margin-left: -100px;
+}
+
+.grid--wide > .gridItem {
+  padding-left: 100px;
+}
+
+.grid--flush {
+  margin-left: 0;
+}
+
+.grid--flush > .griditem {
+  padding-left: 0;
+}
+
+.grid--middle > .gridItem {
+  vertical-align: middle;
+}
+
+.grid--center {
+  text-align: center;
+}
+
+.grid--alignRight {
+  text-align: right;
+}
+
 .gridItem {
   display: inline-block;
   width: 50%;
   font-size: 16px;
   vertical-align: top;
   padding-left: 30px;
+  text-align: left;
 }
 
 .one-half,
