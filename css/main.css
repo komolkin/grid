@@ -24,9 +24,10 @@ footer {
   margin: 0 auto;
   padding: 40px 30px;
   color: rgba(0, 0, 0, .3);
+  text-align: center;
 }
 
-h1 {
+header h1 {
   color: #FFFFFF;
   text-align: center;
   margin-top: 0 !important;
@@ -34,4 +35,11 @@ h1 {
 
 p, ul, ol, blockquote {
   color: rgba(0, 0, 0, .8);
+}
+
+.col {
+  background: #FDDB68;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  text-align: center;
 }
