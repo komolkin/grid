@@ -4,14 +4,7 @@ img { display: block; max-width: 100%; }
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  /*background: #e5e5e5;*/
   padding: 30px;
-}
-
-h1 {
-  color: #3964FE;
-  max-width: 1100px;
-  margin: 0 auto 20px;
 }
 
 .grid {
