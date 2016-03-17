@@ -56,9 +56,16 @@ h5 {
   margin-bottom: 0px;
 }
 
-p, ul, ol, pre, table, blockquote {
+p, ul, ol, pre, table {
   margin-top: 0px;
   margin-bottom: 24px;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  border-left: 4px solid #EEEEEE;
 }
 
 ul ul, ol ol, ul ol, ol ul {
