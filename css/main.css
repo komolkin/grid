@@ -20,16 +20,18 @@ header {
 }
 
 footer {
-  width: 100%;
-  color: #8796A8;
-  text-align: center;
-  padding: 40px 0;
-  margin: 70px auto 0 auto;
-  border-top: 1px solid #eee;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  color: rgba(0, 0, 0, .3);
 }
 
 h1 {
   color: #FFFFFF;
   text-align: center;
   margin-top: 0 !important;
+}
+
+p, ul, ol, blockquote {
+  color: rgba(0, 0, 0, .8);
 }
